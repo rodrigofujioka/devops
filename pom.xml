@@ -3,12 +3,12 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>Com.QATechTesting</groupId>
-	<artifactId>REST-assured_Cucumber</artifactId>
+	<groupId>br.com.fujideia</groupId>
+	<artifactId>PucPR</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>REST-assured_Cucumber</name>
+	<name>Jornada DevOps</name>
 	<url>http://maven.apache.org</url>
 
 	<properties>
