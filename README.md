@@ -1,19 +1,8 @@
-# Programação avançada para web
+# Jornada DevOps PUCPR
 <p align="center">	
 <a href="http://www.rodrigofujioka.com/" target="_blank"><img src="https://github.com/rodrigofujioka/javabasico/blob/master/resources/javaspion.png" alt="Javaspion" /></a>
 </p>
-     
-Código base da disciplina programação web. 
-Contém conteúdo básico para disciplina de programação avançada para web com Maven, JDK11, SpringBoot , SpringData. 
 
-
-[![License](https://img.shields.io/github/license/rodrigofujioka/papw.svg)](https://opensource.org/licenses/MIT)
-<img src="https://img.shields.io/github/followers/rodrigofujioka?label=Follow&style=plastic">
-<img src="https://img.shields.io/github/forks/rodrigofujioka/papw?color=SSSS&label=Fork&style=plastic">
-<a href="https://github.com/rodrigofujioka/papw/graphs/contributors" alt="Contributors">
-   <img src="https://img.shields.io/github/contributors/rodrigofujioka/papw" /></a>
-<a href="https://github.com/rodrigofujioka/papw/pulse" alt="Activity">
-    <img src="https://img.shields.io/github/commit-activity/m/rodrigofujioka/papw" /></a>  
   
 [![Bugs](https://sonarcloud.io/api/project_badges/measure?project=rodrigofujioka_papw&metric=bugs)](https://sonarcloud.io/dashboard?id=rodrigofujioka_papw) 
 [![Code Smells](https://sonarcloud.io/api/project_badges/measure?project=rodrigofujioka_papw&metric=code_smells)](https://sonarcloud.io/dashboard?id=rodrigofujioka_papw) 
