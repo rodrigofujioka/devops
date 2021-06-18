@@ -15,6 +15,13 @@ pipeline {
                 }
             }
         }
+        stage ('qualidade') {
+            steps {
+                withMaven {
+                    sh 'mvn sonar:sonar'
+                }
+            }
+        }
         stage ('Install') {
             steps {
                 withMaven {
