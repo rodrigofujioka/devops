@@ -17,9 +17,9 @@
 		<cucumber.version>4.7.0</cucumber.version>
 		<testng.version>6.14.3</testng.version>
 
-		<sonar.projectKey>java</sonar.projectKey>
-		<sonar.host.url>http://ip172-18-0-18-c36f0gvnjsv000c0m5i0-9000.direct.labs.play-with-docker.com</sonar.host.url>
-		<sonar.login>70666c5bc3a2ca24c20d37ffc4fdf7980b19d3e0</sonar.login>
+		<sonar.projectKey>pucpr</sonar.projectKey>
+		<sonar.host.url>http://localhost:9000</sonar.host.url>
+		<sonar.login>06765763b476eb2444e26ad3f4517209b4de2747</sonar.login>
 
 	</properties>
 
