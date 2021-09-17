@@ -20,6 +20,7 @@
 		<sonar.projectKey>fujioka</sonar.projectKey>
 		<sonar.host.url>http://localhost:9000</sonar.host.url>
 		<sonar.login>01f6b5a30c2d830ba4e06127e73e27224c0f69ae</sonar.login>
+                <sonar.sources>src/main/java</sonar.sources>
 
 	</properties>
 
