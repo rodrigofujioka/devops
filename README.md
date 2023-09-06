@@ -35,11 +35,11 @@ Cursos recomendados para alunos com dificuldade em assimilar o conteúdo.
 
 ## Execução do ambiente 
 
-1 -  docker run -it --name jenkins-p8080:8080  rodrigofujioka/jenkins_sonar_postgres:latest
-1.1 - service jenkins start
-fujioka:fujioka
+### Jenkins
+1.  docker run -it --name jenkins -p8080:8080  rodrigofujioka/jenkins_sonar_postgres:latest 
+2.  service jenkins start fujioka:fujioka
 
-2 -  docker run -it --name sonar -p9000:9000  rodrigofujioka/jenkins_sonar_postgres:latest
-2.1 - sudo su sonar 
-2.2 - service sonar start 
-admin:admin
+### Sonar
+1. docker run -it --name sonar -p9000:9000  rodrigofujioka/jenkins_sonar_postgres:latest
+2. sudo su sonar 
+3. service sonar start admin:admin
