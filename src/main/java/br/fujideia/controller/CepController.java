@@ -22,4 +22,11 @@ public class CepController {
     public ResponseEntity<ViaCepResponse> consultarCep(@PathVariable String cep) {
         return ResponseEntity.ok(viaCepService.buscarEnderecoPorCep(cep));
     }
+
+    @GetMapping("/test")
+    public String mudancaCep(){
+        return "Teste";
+    }
+
+
 }
