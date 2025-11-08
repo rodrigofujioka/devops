@@ -6,6 +6,8 @@ import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
+import javax.swing.*;
+
 @RestController
 @RequestMapping("/api/cep")
 @RequiredArgsConstructor
@@ -21,5 +23,9 @@ public class CepController {
     @GetMapping("/{cep}")
     public ResponseEntity<ViaCepResponse> consultarCep(@PathVariable String cep) {
         return ResponseEntity.ok(viaCepService.buscarEnderecoPorCep(cep));
+    }
+    @GetMapping("/test")
+    public String mudancaCep(){
+        return "Teste";
     }
 }
