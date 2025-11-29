@@ -27,6 +27,8 @@
 		<url/>
 	</scm>
 	<properties>
+		<maven.compiler.source>17</maven.compiler.source>
+		<maven.compiler.target>17</maven.compiler.target>
 		<java.version>17</java.version>
 	</properties>
 	<dependencies>
@@ -98,22 +100,29 @@
 			<artifactId>newrelic-api</artifactId>
 			<version>8.24.0</version>
 		</dependency>
+		<!-- https://mvnrepository.com/artifact/com.newrelic.agent.java/newrelic-agent -->
 		<dependency>
 			<groupId>com.newrelic.agent.java</groupId>
-			<artifactId>newrelic-java</artifactId>
+			<artifactId>newrelic-agent</artifactId>
 			<version>8.24.0</version>
-			<scope>provided</scope>
-			<type>zip</type>
-		</dependency>
-		<dependency>
-			<groupId>com.newrelic.agent.java</groupId>
-			<artifactId>newrelic-api</artifactId>
-			<version>8.24.0</version>
+			<scope>test</scope>
 		</dependency>
 
 	</dependencies>
 
 	<build>
+		<resources>
+			<resource>
+				<directory>src/main/resources</directory>
+				<filtering>true</filtering>
+				<includes>
+					<include>**/*.properties</include>
+					<include>**/*.xml</include>
+					<include>**/*.yml</include>
+					<include>**/*.yaml</include>
+				</includes>
+			</resource>
+		</resources>
 		<plugins>
 			<!-- Unzip New Relic Java agent into target/ -->
 			<plugin>
@@ -129,22 +138,24 @@
 						</goals>
 						<configuration>
 							<includeGroupIds>com.newrelic.agent.java</includeGroupIds>
+							<includeArtifactIds>newrelic-java</includeArtifactIds>
 							<includes>**/newrelic.jar</includes>
-							<overWriteReleases>false</overWriteReleases>
-							<overWriteSnapshots>false</overWriteSnapshots>
 							<outputDirectory>${project.build.directory}/newrelic</outputDirectory>
+							<overWriteReleases>false</overWriteReleases>
+							<stripVersion>true</stripVersion>
 						</configuration>
 					</execution>
 				</executions>
 			</plugin>
 			<plugin>
-				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-surefire-plugin</artifactId>
-				<version>3.2.5</version>
-				<configuration>
-					<argLine>-javaagent:${project.build.directory}/newrelic/newrelic.jar -Dnewrelic.config.file=${project.basedir}/newrelic/newrelic.yml</argLine>
-				</configuration>
-			</plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <version>3.2.5</version>
+                <configuration>
+                    <!-- Desabilita o agente do New Relic durante os testes -->
+                    <argLine>-Dnewrelic.enable.java.8+@/test-classes=disabled</argLine>
+                </configuration>
+            </plugin>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-compiler-plugin</artifactId>

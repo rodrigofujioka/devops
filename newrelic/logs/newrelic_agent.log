@@ -31,3 +31,168 @@
 2025-11-10T01:53:27,697-0300 [63720 81] com.newrelic INFO: Real user monitoring is enabled for application devOps. Auto instrumentation is enabled.
 2025-11-10T01:53:27,697-0300 [63720 81] com.newrelic INFO: New Relic JFR Monitor is disabled: JFR config has not been enabled in the Java agent.
 2025-11-10T02:02:56,181-0300 [63720 52] com.newrelic.agent.core.CoreServiceImpl INFO: JVM is shutting down
+2025-11-10T02:03:52,293-0300 [15748 1] com.newrelic INFO: Writing to New Relic log file: D:\ambiente\sistemas\devops\newrelic\logs\newrelic_agent.log
+2025-11-10T02:03:52,293-0300 [15748 1] com.newrelic INFO: JRE vendor Oracle Corporation version 21.0.5
+2025-11-10T02:03:52,293-0300 [15748 1] com.newrelic INFO: JVM vendor Oracle Corporation Java HotSpot(TM) 64-Bit Server VM version 21.0.5+9-LTS-239
+2025-11-10T02:03:52,293-0300 [15748 1] com.newrelic INFO: OS Windows 11 version 10.0 arch amd64
+2025-11-10T02:03:52,294-0300 [15748 1] com.newrelic INFO: Agent Host: rfuji IP: 192.168.15.7
+2025-11-10T02:03:52,294-0300 [15748 1] com.newrelic INFO: New Relic Agent v8.24.0 is initializing...
+2025-11-10T02:03:53,057-0300 [15748 61] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-resultset is disabled. Skipping.
+2025-11-10T02:03:54,624-0300 [15748 1] com.newrelic.agent.RPMServiceManagerImpl INFO: Configured to connect to New Relic at collector.newrelic.com:443
+2025-11-10T02:03:54,973-0300 [15748 1] com.newrelic INFO: Setting audit_mode to false
+2025-11-10T02:03:55,093-0300 [15748 77] com.newrelic WARN: Failed to validate Azure App Services value
+2025-11-10T02:03:55,179-0300 [15748 1] com.newrelic.agent.config.ConfigServiceImpl INFO: Configuration file is D:\ambiente\sistemas\devops\newrelic\.\newrelic.yml
+2025-11-10T02:03:55,195-0300 [15748 1] com.newrelic INFO: New Relic Agent v8.24.0 has started
+2025-11-10T02:03:55,195-0300 [15748 1] com.newrelic INFO: Agent class loader: com.newrelic.bootstrap.BootstrapAgent$JVMAgentClassLoader@768debd
+2025-11-10T02:03:55,195-0300 [15748 1] com.newrelic INFO: Premain startup complete in 4.347ms
+2025-11-10T02:03:55,202-0300 [15748 1] com.newrelic INFO: New Relic Security is completely disabled by one of the user provided config `security.enabled`, `security.agent.enabled` or `high_security`. Not loading security capabilities.
+2025-11-10T02:04:01,172-0300 [15748 88] com.newrelic INFO: Server Info: Apache Tomcat/10.1.48
+2025-11-10T02:04:15,206-0300 [15748 82] com.newrelic INFO: Host name is rfuji, display host rfuji for application devOps
+2025-11-10T02:04:15,207-0300 [15748 82] com.newrelic INFO: New Relic JFR Monitor is disabled: JFR config has not been enabled in the Java agent.
+2025-11-10T02:04:15,207-0300 [15748 82] com.newrelic WARN: Unable to parse local setting adaptive_sampling_target setting: java.lang.NullPointerException: Cannot invoke "String.trim()" because "in" is null
+2025-11-10T02:04:16,639-0300 [15748 82] com.newrelic INFO: Collector redirection to collector.newrelic.com:443
+2025-11-10T02:04:17,662-0300 [15748 82] com.newrelic INFO: Max payload size is 1.000.000 bytes
+2025-11-10T02:04:17,662-0300 [15748 82] com.newrelic INFO: Agent run id: BchIddrJcvV9ADvf1UxXyEJpEXK4AAIBAAAnIQEAAD2EAgRMV8mtAwAGOC4yNC4wAAVyZnVqaQAGZGV2T3Bz
+2025-11-10T02:04:17,663-0300 [15748 82] com.newrelic INFO: Agent 15748@rfuji/devOps connected to collector.newrelic.com:443
+2025-11-10T02:04:17,663-0300 [15748 82] com.newrelic INFO: Reporting to: https://rpm.newrelic.com/accounts/3923925/applications/1280821677
+2025-11-10T02:04:17,667-0300 [15748 82] com.newrelic INFO: Using default collector host: collector.newrelic.com
+2025-11-10T02:04:17,667-0300 [15748 82] com.newrelic INFO: Using default metric ingest URI: https://metric-api.newrelic.com/metric/v1
+2025-11-10T02:04:17,667-0300 [15748 82] com.newrelic INFO: Using default event ingest URI: https://insights-collector.newrelic.com/v1/accounts/events
+2025-11-10T02:04:17,671-0300 [15748 82] com.newrelic INFO: Using default collector host: collector.newrelic.com
+2025-11-10T02:04:17,671-0300 [15748 82] com.newrelic INFO: Using default metric ingest URI: https://metric-api.newrelic.com/metric/v1
+2025-11-10T02:04:17,671-0300 [15748 82] com.newrelic INFO: Using default event ingest URI: https://insights-collector.newrelic.com/v1/accounts/events
+2025-11-10T02:04:18,283-0300 [15748 82] com.newrelic INFO: Real user monitoring is enabled for application devOps. Auto instrumentation is enabled.
+2025-11-10T02:04:18,283-0300 [15748 82] com.newrelic INFO: New Relic JFR Monitor is disabled: JFR config has not been enabled in the Java agent.
+2025-11-10T02:08:19,586-0300 [15748 53] com.newrelic.agent.core.CoreServiceImpl INFO: JVM is shutting down
+2025-11-10T02:11:58,911-0300 [86520 1] com.newrelic INFO: Writing to New Relic log file: D:\ambiente\sistemas\devops\newrelic\logs\newrelic_agent.log
+2025-11-10T02:11:58,912-0300 [86520 1] com.newrelic INFO: JRE vendor Oracle Corporation version 21.0.5
+2025-11-10T02:11:58,912-0300 [86520 1] com.newrelic INFO: JVM vendor Oracle Corporation Java HotSpot(TM) 64-Bit Server VM version 21.0.5+9-LTS-239
+2025-11-10T02:11:58,912-0300 [86520 1] com.newrelic INFO: OS Windows 11 version 10.0 arch amd64
+2025-11-10T02:11:58,912-0300 [86520 1] com.newrelic INFO: Agent Host: rfuji IP: 192.168.15.7
+2025-11-10T02:11:58,912-0300 [86520 1] com.newrelic INFO: New Relic Agent v8.24.0 is initializing...
+2025-11-10T02:11:59,508-0300 [86520 60] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-resultset is disabled. Skipping.
+2025-11-10T02:12:00,520-0300 [86520 1] com.newrelic.agent.RPMServiceManagerImpl INFO: Configured to connect to New Relic at collector.newrelic.com:443
+2025-11-10T02:12:00,677-0300 [86520 1] com.newrelic INFO: Setting audit_mode to false
+2025-11-10T02:12:00,789-0300 [86520 1] com.newrelic.agent.config.ConfigServiceImpl INFO: Configuration file is D:\ambiente\sistemas\devops\newrelic\.\newrelic.yml
+2025-11-10T02:12:00,795-0300 [86520 1] com.newrelic INFO: New Relic Agent v8.24.0 has started
+2025-11-10T02:12:00,795-0300 [86520 1] com.newrelic INFO: Agent class loader: com.newrelic.bootstrap.BootstrapAgent$JVMAgentClassLoader@de0a01f
+2025-11-10T02:12:00,796-0300 [86520 1] com.newrelic INFO: Premain startup complete in 3.282ms
+2025-11-10T02:12:00,798-0300 [86520 1] com.newrelic INFO: New Relic Security is completely disabled by one of the user provided config `security.enabled`, `security.agent.enabled` or `high_security`. Not loading security capabilities.
+2025-11-10T02:12:00,811-0300 [86520 75] com.newrelic WARN: Failed to validate Azure App Services value
+2025-11-10T02:12:04,420-0300 [86520 86] com.newrelic INFO: Server Info: Apache Tomcat/10.1.48
+2025-11-10T02:12:10,803-0300 [86520 79] com.newrelic INFO: Host name is rfuji, display host rfuji for application devOps
+2025-11-10T02:12:10,804-0300 [86520 79] com.newrelic INFO: New Relic JFR Monitor is disabled: JFR config has not been enabled in the Java agent.
+2025-11-10T02:12:10,805-0300 [86520 79] com.newrelic WARN: Unable to parse local setting adaptive_sampling_target setting: java.lang.NullPointerException: Cannot invoke "String.trim()" because "in" is null
+2025-11-10T02:12:11,814-0300 [86520 79] com.newrelic INFO: Collector redirection to collector.newrelic.com:443
+2025-11-10T02:12:12,914-0300 [86520 79] com.newrelic INFO: Max payload size is 1.000.000 bytes
+2025-11-10T02:12:12,914-0300 [86520 79] com.newrelic INFO: Agent run id: BTA-ScnWkmcOADvf1UxXyEJpEXSYAAIBAAAnIQEAAVH4AgRMV8mtAwAGOC4yNC4wAAVyZnVqaQAGZGV2T3Bz
+2025-11-10T02:12:12,914-0300 [86520 79] com.newrelic INFO: Agent 86520@rfuji/devOps connected to collector.newrelic.com:443
+2025-11-10T02:12:12,914-0300 [86520 79] com.newrelic INFO: Reporting to: https://rpm.newrelic.com/accounts/3923925/applications/1280821677
+2025-11-10T02:12:12,917-0300 [86520 79] com.newrelic INFO: Using default collector host: collector.newrelic.com
+2025-11-10T02:12:12,917-0300 [86520 79] com.newrelic INFO: Using default metric ingest URI: https://metric-api.newrelic.com/metric/v1
+2025-11-10T02:12:12,917-0300 [86520 79] com.newrelic INFO: Using default event ingest URI: https://insights-collector.newrelic.com/v1/accounts/events
+2025-11-10T02:12:12,920-0300 [86520 79] com.newrelic INFO: Using default collector host: collector.newrelic.com
+2025-11-10T02:12:12,920-0300 [86520 79] com.newrelic INFO: Using default metric ingest URI: https://metric-api.newrelic.com/metric/v1
+2025-11-10T02:12:12,920-0300 [86520 79] com.newrelic INFO: Using default event ingest URI: https://insights-collector.newrelic.com/v1/accounts/events
+2025-11-10T02:12:13,520-0300 [86520 79] com.newrelic INFO: Real user monitoring is enabled for application devOps. Auto instrumentation is enabled.
+2025-11-10T02:12:13,521-0300 [86520 79] com.newrelic INFO: New Relic JFR Monitor is disabled: JFR config has not been enabled in the Java agent.
+2025-11-10T02:12:37,813-0300 [86520 52] com.newrelic.agent.core.CoreServiceImpl INFO: JVM is shutting down
+2025-11-10T02:12:55,184-0300 [75936 1] com.newrelic INFO: Writing to New Relic log file: D:\ambiente\sistemas\devops\newrelic\logs\newrelic_agent.log
+2025-11-10T02:12:55,185-0300 [75936 1] com.newrelic INFO: JRE vendor Oracle Corporation version 21.0.5
+2025-11-10T02:12:55,185-0300 [75936 1] com.newrelic INFO: JVM vendor Oracle Corporation Java HotSpot(TM) 64-Bit Server VM version 21.0.5+9-LTS-239
+2025-11-10T02:12:55,186-0300 [75936 1] com.newrelic INFO: OS Windows 11 version 10.0 arch amd64
+2025-11-10T02:12:55,186-0300 [75936 1] com.newrelic INFO: Agent Host: rfuji IP: 192.168.15.7
+2025-11-10T02:12:55,186-0300 [75936 1] com.newrelic INFO: New Relic Agent v8.24.0 is initializing...
+2025-11-10T02:12:56,090-0300 [75936 61] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-resultset is disabled. Skipping.
+2025-11-10T02:12:57,493-0300 [75936 1] com.newrelic.agent.RPMServiceManagerImpl INFO: Configured to connect to New Relic at collector.newrelic.com:443
+2025-11-10T02:12:57,946-0300 [75936 1] com.newrelic INFO: Setting audit_mode to false
+2025-11-10T02:12:58,066-0300 [75936 76] com.newrelic WARN: Failed to validate Azure App Services value
+2025-11-10T02:12:58,151-0300 [75936 1] com.newrelic.agent.config.ConfigServiceImpl INFO: Configuration file is D:\ambiente\sistemas\devops\newrelic\.\newrelic.yml
+2025-11-10T02:12:58,157-0300 [75936 1] com.newrelic INFO: New Relic Agent v8.24.0 has started
+2025-11-10T02:12:58,158-0300 [75936 1] com.newrelic INFO: Agent class loader: com.newrelic.bootstrap.BootstrapAgent$JVMAgentClassLoader@de0a01f
+2025-11-10T02:12:58,158-0300 [75936 1] com.newrelic INFO: Premain startup complete in 4.484ms
+2025-11-10T02:12:58,162-0300 [75936 1] com.newrelic INFO: New Relic Security is completely disabled by one of the user provided config `security.enabled`, `security.agent.enabled` or `high_security`. Not loading security capabilities.
+2025-11-10T02:13:04,263-0300 [75936 88] com.newrelic INFO: Server Info: Apache Tomcat/10.1.48
+2025-11-10T02:13:18,192-0300 [75936 82] com.newrelic INFO: Host name is rfuji, display host rfuji for application devOps
+2025-11-10T02:13:18,194-0300 [75936 82] com.newrelic INFO: New Relic JFR Monitor is disabled: JFR config has not been enabled in the Java agent.
+2025-11-10T02:13:18,196-0300 [75936 82] com.newrelic WARN: Unable to parse local setting adaptive_sampling_target setting: java.lang.NullPointerException: Cannot invoke "String.trim()" because "in" is null
+2025-11-10T02:13:19,586-0300 [75936 82] com.newrelic INFO: Collector redirection to collector.newrelic.com:443
+2025-11-10T02:13:20,001-0300 [75936 82] com.newrelic INFO: Max payload size is 1.000.000 bytes
+2025-11-10T02:13:20,002-0300 [75936 82] com.newrelic INFO: Agent run id: BRtLhCGbGyjQADvf1UxXyEJpEXTUAAIBAAAnIQEAASigAgRMV8mtAwAGOC4yNC4wAAVyZnVqaQAGZGV2T3Bz
+2025-11-10T02:13:20,002-0300 [75936 82] com.newrelic INFO: Agent 75936@rfuji/devOps connected to collector.newrelic.com:443
+2025-11-10T02:13:20,002-0300 [75936 82] com.newrelic INFO: Reporting to: https://rpm.newrelic.com/accounts/3923925/applications/1280821677
+2025-11-10T02:13:20,004-0300 [75936 82] com.newrelic INFO: Using default collector host: collector.newrelic.com
+2025-11-10T02:13:20,005-0300 [75936 82] com.newrelic INFO: Using default metric ingest URI: https://metric-api.newrelic.com/metric/v1
+2025-11-10T02:13:20,005-0300 [75936 82] com.newrelic INFO: Using default event ingest URI: https://insights-collector.newrelic.com/v1/accounts/events
+2025-11-10T02:13:20,008-0300 [75936 82] com.newrelic INFO: Using default collector host: collector.newrelic.com
+2025-11-10T02:13:20,008-0300 [75936 82] com.newrelic INFO: Using default metric ingest URI: https://metric-api.newrelic.com/metric/v1
+2025-11-10T02:13:20,008-0300 [75936 82] com.newrelic INFO: Using default event ingest URI: https://insights-collector.newrelic.com/v1/accounts/events
+2025-11-10T02:13:21,871-0300 [75936 82] com.newrelic INFO: Real user monitoring is enabled for application devOps. Auto instrumentation is enabled.
+2025-11-10T02:13:21,871-0300 [75936 82] com.newrelic INFO: New Relic JFR Monitor is disabled: JFR config has not been enabled in the Java agent.
+2025-11-10T02:14:22,193-0300 [75936 51] com.newrelic.agent.core.CoreServiceImpl INFO: JVM is shutting down
+2025-11-10T02:14:27,569-0300 [76256 1] com.newrelic INFO: Writing to New Relic log file: D:\ambiente\sistemas\devops\newrelic\logs\newrelic_agent.log
+2025-11-10T02:14:27,569-0300 [76256 1] com.newrelic INFO: JRE vendor Oracle Corporation version 21.0.5
+2025-11-10T02:14:27,570-0300 [76256 1] com.newrelic INFO: JVM vendor Oracle Corporation Java HotSpot(TM) 64-Bit Server VM version 21.0.5+9-LTS-239
+2025-11-10T02:14:27,570-0300 [76256 1] com.newrelic INFO: OS Windows 11 version 10.0 arch amd64
+2025-11-10T02:14:27,570-0300 [76256 1] com.newrelic INFO: Agent Host: rfuji IP: 192.168.15.7
+2025-11-10T02:14:27,570-0300 [76256 1] com.newrelic INFO: New Relic Agent v8.24.0 is initializing...
+2025-11-10T02:14:28,153-0300 [76256 60] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-resultset is disabled. Skipping.
+2025-11-10T02:14:28,981-0300 [76256 1] com.newrelic.agent.RPMServiceManagerImpl INFO: Configured to connect to New Relic at collector.newrelic.com:443
+2025-11-10T02:14:29,145-0300 [76256 1] com.newrelic INFO: Setting audit_mode to false
+2025-11-10T02:14:29,260-0300 [76256 1] com.newrelic.agent.config.ConfigServiceImpl INFO: Configuration file is D:\ambiente\sistemas\devops\newrelic\.\newrelic.yml
+2025-11-10T02:14:29,271-0300 [76256 1] com.newrelic INFO: New Relic Agent v8.24.0 has started
+2025-11-10T02:14:29,271-0300 [76256 1] com.newrelic INFO: Agent class loader: com.newrelic.bootstrap.BootstrapAgent$JVMAgentClassLoader@de0a01f
+2025-11-10T02:14:29,272-0300 [76256 1] com.newrelic INFO: Premain startup complete in 3.073ms
+2025-11-10T02:14:29,276-0300 [76256 1] com.newrelic INFO: New Relic Security is completely disabled by one of the user provided config `security.enabled`, `security.agent.enabled` or `high_security`. Not loading security capabilities.
+2025-11-10T02:14:29,293-0300 [76256 75] com.newrelic WARN: Failed to validate Azure App Services value
+2025-11-10T02:14:32,583-0300 [76256 85] com.newrelic INFO: Server Info: Apache Tomcat/10.1.48
+2025-11-10T02:14:39,281-0300 [76256 79] com.newrelic INFO: Host name is rfuji, display host rfuji for application devOps
+2025-11-10T02:14:39,283-0300 [76256 79] com.newrelic INFO: New Relic JFR Monitor is disabled: JFR config has not been enabled in the Java agent.
+2025-11-10T02:14:39,284-0300 [76256 79] com.newrelic WARN: Unable to parse local setting adaptive_sampling_target setting: java.lang.NullPointerException: Cannot invoke "String.trim()" because "in" is null
+2025-11-10T02:14:40,416-0300 [76256 79] com.newrelic INFO: Collector redirection to collector.newrelic.com:443
+2025-11-10T02:14:41,050-0300 [76256 79] com.newrelic INFO: Max payload size is 1.000.000 bytes
+2025-11-10T02:14:41,050-0300 [76256 79] com.newrelic INFO: Agent run id: BakzZcDfm_OoADvf1UxXyEJpEXUQAAIBAAAnIQEAASngAgRMV8mtAwAGOC4yNC4wAAVyZnVqaQAGZGV2T3Bz
+2025-11-10T02:14:41,050-0300 [76256 79] com.newrelic INFO: Agent 76256@rfuji/devOps connected to collector.newrelic.com:443
+2025-11-10T02:14:41,050-0300 [76256 79] com.newrelic INFO: Reporting to: https://rpm.newrelic.com/accounts/3923925/applications/1280821677
+2025-11-10T02:14:41,052-0300 [76256 79] com.newrelic INFO: Using default collector host: collector.newrelic.com
+2025-11-10T02:14:41,053-0300 [76256 79] com.newrelic INFO: Using default metric ingest URI: https://metric-api.newrelic.com/metric/v1
+2025-11-10T02:14:41,053-0300 [76256 79] com.newrelic INFO: Using default event ingest URI: https://insights-collector.newrelic.com/v1/accounts/events
+2025-11-10T02:14:41,056-0300 [76256 79] com.newrelic INFO: Using default collector host: collector.newrelic.com
+2025-11-10T02:14:41,056-0300 [76256 79] com.newrelic INFO: Using default metric ingest URI: https://metric-api.newrelic.com/metric/v1
+2025-11-10T02:14:41,056-0300 [76256 79] com.newrelic INFO: Using default event ingest URI: https://insights-collector.newrelic.com/v1/accounts/events
+2025-11-10T02:14:41,696-0300 [76256 79] com.newrelic INFO: Real user monitoring is enabled for application devOps. Auto instrumentation is enabled.
+2025-11-10T02:14:41,696-0300 [76256 79] com.newrelic INFO: New Relic JFR Monitor is disabled: JFR config has not been enabled in the Java agent.
+2025-11-10T02:17:10,402-0300 [76256 51] com.newrelic.agent.core.CoreServiceImpl INFO: JVM is shutting down
+2025-11-29T05:05:48,176-0300 [65676 1] com.newrelic INFO: Writing to New Relic log file: D:\ambiente\sistemas\devops\newrelic\logs\newrelic_agent.log
+2025-11-29T05:05:48,177-0300 [65676 1] com.newrelic INFO: JRE vendor Oracle Corporation version 21.0.5
+2025-11-29T05:05:48,177-0300 [65676 1] com.newrelic INFO: JVM vendor Oracle Corporation Java HotSpot(TM) 64-Bit Server VM version 21.0.5+9-LTS-239
+2025-11-29T05:05:48,178-0300 [65676 1] com.newrelic INFO: OS Windows 11 version 10.0 arch amd64
+2025-11-29T05:05:48,178-0300 [65676 1] com.newrelic INFO: Agent Host: rfuji IP: 192.168.100.3
+2025-11-29T05:05:48,178-0300 [65676 1] com.newrelic INFO: New Relic Agent v8.24.0 is initializing...
+2025-11-29T05:05:49,173-0300 [65676 56] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-resultset is disabled. Skipping.
+2025-11-29T05:05:50,389-0300 [65676 1] com.newrelic.agent.RPMServiceManagerImpl INFO: Configured to connect to New Relic at collector.newrelic.com:443
+2025-11-29T05:05:50,717-0300 [65676 1] com.newrelic INFO: Setting audit_mode to false
+2025-11-29T05:05:50,826-0300 [65676 69] com.newrelic WARN: Failed to validate Azure App Services value
+2025-11-29T05:05:50,829-0300 [65676 1] com.newrelic.agent.config.ConfigServiceImpl INFO: Configuration file is D:\ambiente\sistemas\devops\newrelic\.\newrelic.yml
+2025-11-29T05:05:50,833-0300 [65676 1] com.newrelic INFO: New Relic Agent v8.24.0 has started
+2025-11-29T05:05:50,833-0300 [65676 1] com.newrelic INFO: Agent class loader: com.newrelic.bootstrap.BootstrapAgent$JVMAgentClassLoader@de0a01f
+2025-11-29T05:05:50,834-0300 [65676 1] com.newrelic INFO: Premain startup complete in 4.611ms
+2025-11-29T05:05:50,837-0300 [65676 1] com.newrelic INFO: New Relic Security is completely disabled by one of the user provided config `security.enabled`, `security.agent.enabled` or `high_security`. Not loading security capabilities.
+2025-11-29T05:05:54,655-0300 [65676 78] com.newrelic INFO: Server Info: Apache Tomcat/10.1.48
+2025-11-29T05:06:00,839-0300 [65676 73] com.newrelic INFO: Host name is rfuji, display host rfuji for application devOps
+2025-11-29T05:06:00,840-0300 [65676 73] com.newrelic INFO: New Relic JFR Monitor is disabled: JFR config has not been enabled in the Java agent.
+2025-11-29T05:06:00,841-0300 [65676 73] com.newrelic WARN: Unable to parse local setting adaptive_sampling_target setting: java.lang.NullPointerException: Cannot invoke "String.trim()" because "in" is null
+2025-11-29T05:06:02,847-0300 [65676 73] com.newrelic INFO: Collector redirection to collector.newrelic.com:443
+2025-11-29T05:06:04,673-0300 [65676 73] com.newrelic INFO: Max payload size is 1.000.000 bytes
+2025-11-29T05:06:04,674-0300 [65676 73] com.newrelic INFO: Agent run id: BbdG6lWZSfuaADvf1UxXyEJpKqngAAIBAAAnIQEAAQCMAgRMV8mtAwAGOC4yNC4wAAVyZnVqaQAGZGV2T3Bz
+2025-11-29T05:06:04,674-0300 [65676 73] com.newrelic INFO: Agent 65676@rfuji/devOps connected to collector.newrelic.com:443
+2025-11-29T05:06:04,675-0300 [65676 73] com.newrelic INFO: Reporting to: https://rpm.newrelic.com/accounts/3923925/applications/1280821677
+2025-11-29T05:06:04,677-0300 [65676 73] com.newrelic INFO: Using default collector host: collector.newrelic.com
+2025-11-29T05:06:04,677-0300 [65676 73] com.newrelic INFO: Using default metric ingest URI: https://metric-api.newrelic.com/metric/v1
+2025-11-29T05:06:04,677-0300 [65676 73] com.newrelic INFO: Using default event ingest URI: https://insights-collector.newrelic.com/v1/accounts/events
+2025-11-29T05:06:04,679-0300 [65676 73] com.newrelic INFO: Using default collector host: collector.newrelic.com
+2025-11-29T05:06:04,679-0300 [65676 73] com.newrelic INFO: Using default metric ingest URI: https://metric-api.newrelic.com/metric/v1
+2025-11-29T05:06:04,679-0300 [65676 73] com.newrelic INFO: Using default event ingest URI: https://insights-collector.newrelic.com/v1/accounts/events
+2025-11-29T05:06:05,637-0300 [65676 73] com.newrelic INFO: Real user monitoring is enabled for application devOps. Auto instrumentation is enabled.
+2025-11-29T05:06:05,638-0300 [65676 73] com.newrelic INFO: New Relic JFR Monitor is disabled: JFR config has not been enabled in the Java agent.
+2025-11-29T05:09:52,244-0300 [65676 49] com.newrelic.agent.core.CoreServiceImpl INFO: JVM is shutting down
